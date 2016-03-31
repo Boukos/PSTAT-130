@@ -1,0 +1,13 @@
+options ls=64 nodate nonumber;
+proc sort data=fa1;
+   by Name;
+run;
+proc sort data=fa2;
+   by Name;
+run;
+data newfa;
+   set fa1 fa2(rename=(JCode=JobCode));
+   by Name;
+run;
+proc print;
+run;

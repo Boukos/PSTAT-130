@@ -1,0 +1,11 @@
+options nodate nonumber ls=64;
+libname ia '.';
+data onboard;
+   set ia.dfwlax;
+   Total=FirstClass+Economy;
+   DayOfWeek=weekday(Date);
+run;
+proc print data=onboard;
+   var Flight Dest Total DayOfWeek Date;
+   format Date weekdate.;
+run; 

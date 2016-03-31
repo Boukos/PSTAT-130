@@ -1,0 +1,17 @@
+//SASCLASS JOB (,STUDENT),'CARY',TIME=(,5),MSGCLASS=Z
+/*JOBPARM FETCH
+// EXEC SAS8
+//SYSIN DD *
+data work.staff;
+   infile '.prog1.rawdata(emplist)';
+   input LastName $ 1-20 FirstName $ 21-30
+         JobTitle $ 36-43 Salary 54-59;
+run;
+
+proc print data=work.staff;
+run;
+
+proc means data=work.staff;
+   class Jobtitle;
+   var Salary;
+run;
