@@ -1,0 +1,11 @@
+The SAS System
+
+"Description","ListDate","SellDate","SellPrice"
+"Colonial","16OCT1997","02MAY1998",355200
+"Townhouse","15JAN1998","17MAY1998",241200
+"Townhouse","17AUG1998","28MAY1999",238100
+"Ranch","07DEC1999","06MAY2000",219400
+"Victorian","14JUL2000","11MAY2001",358200
+
+data: prog2.maysales
+
