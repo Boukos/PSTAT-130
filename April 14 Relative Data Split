@@ -1,0 +1,10 @@
+data work.students;
+input firstname $ gender $ age;
+datalines;
+John Male 19
+Wendy Female 22
+;
+run;
+
+proc print data=work.students;
+run;
