@@ -1,0 +1,13 @@
+data statepop;
+input State $ 1-12 population 13-16;
+datalines;
+California  36.9
+Texas       24.8
+New York    19.5
+Florida     18.5
+Illinois    12.9
+;
+run;
+
+proc print data=statepop;
+run;
