@@ -1,0 +1,22 @@
+libname data1 'W:\TemporaryStorage';
+
+data work.temp_data;
+	set data1.staff;
+*this reading the data1.staff;
+/*
+when we use proc print data =  data1.staff
+
+	this tells sas to print out the data that is already exists
+
+
+	we can also says proc print data=work temp_staff 
+	
+
+	*/
+
+	*drop bonus;
+run;
+
+
+proc print data =  data1.staff;
+run;
