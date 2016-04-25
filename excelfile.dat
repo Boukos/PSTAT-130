@@ -1,0 +1,246 @@
+                             The SAS System
+
+                         The CONTENTS Procedure
+
+Data Set Name        WORK.SFOEXCEL             Observations          52
+Member Type          DATA                      Variables             13
+Engine               V9                        Indexes               0
+Created              04/25/2016 15:44:50       Observation Length    136
+Last Modified        04/25/2016 15:44:50       Deleted Observations  0
+Protection                                     Compressed            NO
+Data Set Type                                  Sorted                NO
+Label
+Data Representation  WINDOWS_64
+Encoding             wlatin1  Western
+                     (Windows)
+
+
+                   Engine/Host Dependent Information
+
+Data Set Page Size          65536
+Number of Data Set Pages    1
+First Data Page             1
+Max Obs per Page            481
+Obs in First Data Page      52
+Number of Data Set Repairs  0
+ExtendObsCounter            YES
+Filename                    C:\Users\SSMS13~1\AppData\Local\Temp\SAS
+                            Temporary
+                            Files\_TD9184_SSMS1302-17_\sfoexcel.sas7bdat
+Release Created             9.0401M2
+Host Created                X64_7PRO
+
+
+               Alphabetic List of Variables and Attributes
+
+  #    Variable       Type    Len    Format     Informat    Label
+
+  9    BClassPass     Num       8    BEST12.                BClassPass
+ 13    CargoRev       Num       8    BEST12.                CargoRev
+ 12    CargoWt        Num       8    BEST12.                CargoWt
+  6    Date           Char     12    $12.       $12.        Date
+  7    DepartDay      Num       8    BEST12.                DepartDay
+  4    Destination    Char     12    $12.       $12.        Destination
+ 10    EClassPass     Num       8    BEST12.                EClassPass
+  8    FClassPass     Num       8    BEST12.                FClassPass
+  1    FlightID       Char     12    $12.       $12.        FlightID
+  5    Model          Char     16    $16.       $16.        Model
+  3    Origin         Char     12    $12.       $12.        Origin
+  2    RouteID        Char     12    $12.       $12.        RouteID
+ 11    TotPassCap     Num       8    BEST12.                TotPassCap
+                             The SAS System
+
+Obs FlightID     RouteID      Origin       Destination  Model
+
+  1 IA11200      0000112      0000112      HND          JetCruise LF8100
+  2 IA01804      0000018      0000018      SEA          JetCruise SF1000
+  3 IA02901      0000029      0000029      HNL          JetCruise LF5200
+  4 IA03100      0000031      0000031      ANC          JetCruise LF8100
+  5 IA02901      0000029      0000029      HNL          JetCruise LF5200
+  6 IA03100      0000031      0000031      ANC          JetCruise MF4000
+  7 IA00800      0000008      0000008      RDU          JetCruise MF4000
+  8 IA01805      0000018      0000018      SEA          JetCruise SF1000
+  9 IA01804      0000018      0000018      SEA          JetCruise LF5100
+ 10 IA03101      0000031      0000031      ANC          JetCruise LF8100
+ 11 IA01802      0000018      0000018      SEA          JetCruise SF1000
+ 12 IA11200      0000112      0000112      HND          JetCruise LF8100
+ 13 IA03101      0000031      0000031      ANC          JetCruise LF8100
+ 14 IA01804      0000018      0000018      SEA          JetCruise SF1000
+ 15 IA11201      0000112      0000112      HND          JetCruise LF8100
+
+Obs Date            DepartDay   FClassPass   BClassPass   EClassPass
+
+  1 01DEC2000               6           19           31          171
+  2 01DEC2000               6           10            .          123
+  3 02DEC2000               7           13           24          138
+  4 02DEC2000               7           13           22          250
+  5 03DEC2000               1           14           25          132
+  6 03DEC2000               1           16            .          243
+  7 04DEC2000               2           16            .          243
+  8 04DEC2000               2           11            .          123
+  9 06DEC2000               4           11           12          111
+ 10 06DEC2000               4           14           26          233
+ 11 07DEC2000               5           10            .          132
+ 12 08DEC2000               6           17           33          194
+ 13 08DEC2000               6           13           17          242
+ 14 08DEC2000               6           12            .          119
+ 15 09DEC2000               7           15           32          175
+
+Obs   TotPassCap         CargoWt        CargoRev
+
+  1          255           61300           79077
+  2          150           10300           13287
+  3          207           47400           61146
+  4          255           24800           31992
+  5          207           48200           62178
+  6          267           25600           33024
+  7          267           25600           33024
+  8          150           10100           13029
+  9          165           12500           16125
+ 10          255           28000           36120
+ 11          150            8500           10965
+ 12          255           56700           73143
+ 13          255           26400           34056
+ 14          150           10700           13803
+ 15          255           61100           78819
+                             The SAS System
+
+Obs FlightID     RouteID      Origin       Destination  Model
+
+ 16 IA03100      0000031      0000031      ANC          JetCruise MF4000
+ 17 IA01805      0000018      0000018      SEA          JetCruise SF1000
+ 18 IA01803      0000018      0000018      SEA          JetCruise SF1000
+ 19 IA11201      0000112      0000112      HND          JetCruise MF2100
+ 20 IA11200      0000112      0000112      HND          JetCruise LF8100
+ 21 IA03100      0000031      0000031      ANC          JetCruise MF4000
+ 22 IA01802      0000018      0000018      SEA          JetCruise SF1000
+ 23 IA01804      0000018      0000018      SEA          JetCruise SF1000
+ 24 IA01805      0000018      0000018      SEA          JetCruise SF1000
+ 25 IA11201      0000112      0000112      HND          JetCruise LF8100
+ 26 IA00801      0000008      0000008      RDU          JetCruise MF4000
+ 27 IA01803      0000018      0000018      SEA          JetCruise SF1000
+ 28 IA00801      0000008      0000008      RDU          JetCruise MF4000
+ 29 IA01800      0000018      0000018      SEA          JetCruise SF1000
+ 30 IA01803      0000018      0000018      SEA          JetCruise LF5100
+
+Obs Date            DepartDay   FClassPass   BClassPass   EClassPass
+
+ 16 09DEC2000               7           14            .          237
+ 17 10DEC2000               1           12            .          126
+ 18 11DEC2000               2           12            .          136
+ 19 12DEC2000               3           18           31          178
+ 20 13DEC2000               4           17           29          179
+ 21 13DEC2000               4           14            .          244
+ 22 13DEC2000               4           12            .          115
+ 23 13DEC2000               4           11            .          115
+ 24 13DEC2000               4           10            .          123
+ 25 14DEC2000               5           16           35          163
+ 26 14DEC2000               5           14            .          222
+ 27 15DEC2000               6           11            .          105
+ 28 16DEC2000               7           13            .          229
+ 29 16DEC2000               7           10            .          128
+ 30 17DEC2000               1           11           18          104
+
+Obs   TotPassCap         CargoWt        CargoRev
+
+ 16          267           27200           35088
+ 17          150            9300           11997
+ 18          150            7300            9417
+ 19          237           60100           77529
+ 20          255           60500           78045
+ 21          267           25800           33282
+ 22          150           11500           14835
+ 23          150           11700           15093
+ 24          150           10300           13287
+ 25          255           62700           80883
+ 26          267           30200           38958
+ 27          150           13700           17673
+ 28          267           29000           37410
+ 29          150            9300           11997
+ 30          165           13900           17931
+                             The SAS System
+
+Obs FlightID     RouteID      Origin       Destination  Model
+
+ 31 IA01803      0000018      0000018      SEA          JetCruise SF1000
+ 32 IA00801      0000008      0000008      RDU          JetCruise MF4000
+ 33 IA03100      0000031      0000031      ANC          JetCruise LF8000
+ 34 IA00801      0000008      0000008      RDU          JetCruise MF4000
+ 35 IA01803      0000018      0000018      SEA          JetCruise SF1000
+ 36 IA01801      0000018      0000018      SEA          JetCruise SF1000
+ 37 IA11200      0000112      0000112      HND          JetCruise MF2100
+ 38 IA01800      0000018      0000018      SEA          JetCruise LF5100
+ 39 IA02901      0000029      0000029      HNL          JetCruise LF5200
+ 40 IA03101      0000031      0000031      ANC          JetCruise MF4000
+ 41 IA01801      0000018      0000018      SEA          JetCruise SF1000
+ 42 IA01802      0000018      0000018      SEA          JetCruise SF1000
+ 43 IA01805      0000018      0000018      SEA          JetCruise SF1000
+ 44 IA00800      0000008      0000008      RDU          JetCruise MF4000
+ 45 IA01800      0000018      0000018      SEA          JetCruise SF1000
+
+Obs Date            DepartDay   FClassPass   BClassPass   EClassPass
+
+ 31 18DEC2000               2           11            .          131
+ 32 19DEC2000               3           14            .          205
+ 33 20DEC2000               4           15           22          199
+ 34 20DEC2000               4           14            .          208
+ 35 20DEC2000               4           10            .          111
+ 36 21DEC2000               5           12            .          106
+ 37 22DEC2000               6           15           27          187
+ 38 24DEC2000               1           10           23          113
+ 39 24DEC2000               1           12           29          155
+ 40 24DEC2000               1           15            .          237
+ 41 24DEC2000               1           11            .          115
+ 42 25DEC2000               2           12            .          131
+ 43 25DEC2000               2           11            .          113
+ 44 26DEC2000               3           15            .          249
+ 45 26DEC2000               3           11            .          127
+
+Obs   TotPassCap         CargoWt        CargoRev
+
+ 31          150            8500           10965
+ 32          267           33600           43344
+ 33          238           34600           44643
+ 34          267           33000           42570
+ 35          150           12700           16383
+ 36          150           13300           17157
+ 37          237           59700           77013
+ 38          165           12300           15867
+ 39          207           43200           55728
+ 40          267           27000           34830
+ 41          150           11700           15093
+ 42          150            8300           10707
+ 43          150           12100           15609
+ 44          267           24600           31734
+ 45          150            9300           11997
+                             The SAS System
+
+Obs FlightID     RouteID      Origin       Destination  Model
+
+ 46 IA01801      0000018      0000018      SEA          JetCruise SF1000
+ 47 IA01802      0000018      0000018      SEA          JetCruise SF1000
+ 48 IA11200      0000112      0000112      HND          JetCruise LF8100
+ 49 IA01803      0000018      0000018      SEA          JetCruise SF1000
+ 50 IA01804      0000018      0000018      SEA          JetCruise SF1000
+ 51 IA03101      0000031      0000031      ANC          JetCruise LF8000
+ 52 IA03100      0000031      0000031      ANC          JetCruise MF4000
+
+Obs Date            DepartDay   FClassPass   BClassPass   EClassPass
+
+ 46 26DEC2000               3           12            .          118
+ 47 26DEC2000               3           11            .          127
+ 48 27DEC2000               4           17           29          154
+ 49 27DEC2000               4           11            .          126
+ 50 27DEC2000               4           12            .          119
+ 51 28DEC2000               5           15           43          205
+ 52 30DEC2000               7           14            .          249
+
+Obs   TotPassCap         CargoWt        CargoRev
+
+ 46          150           10900           14061
+ 47          150            9300           11997
+ 48          255           65500           84495
+ 49          150            9500           12255
+ 50          150           10700           13803
+ 51          238           33400           43086
+ 52          267           24800           31992
