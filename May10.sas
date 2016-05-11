@@ -17,3 +17,6 @@ class sex actlevel;
 var weight;
 table sex all, actlevel all;
 run;
+
+proc report data = temp.admit;
+run;
