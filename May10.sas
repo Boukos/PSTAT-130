@@ -12,3 +12,8 @@ proc freq data = temp.admit;
 	tables sex*actlevel;
 run;
 
+proc tabulate data = temp.admit;
+class sex actlevel;
+var weight;
+table sex all, actlevel all;
+run;
