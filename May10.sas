@@ -9,4 +9,6 @@ var weight height;
 run;
 
 proc freq data = temp.admit;
+	tables sex*actlevel;
 run;
+
